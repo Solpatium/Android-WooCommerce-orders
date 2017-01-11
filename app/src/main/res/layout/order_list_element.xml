@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:layout_collapseParallaxMultiplier="1.0"
+    android:weightSum="1"
+    android:background="?attr/selectableItemBackground"
+    android:padding="15dp">
+    <ImageView
+        android:id="@+id/status"
+        app:srcCompat="@drawable/completed"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/orderid"
+        android:layout_width="wrap_content"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="#000"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textColorLink="#00a0d2"
+        android:elevation="0dp"
+        android:textColor="#00a0d2"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp"
+        android:layout_height="fill_parent" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:text="by"
+        android:textAlignment="center"
+        android:textColor="#999"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dp" />
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Zbyszko z bogdańca"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textAlignment="center"
+        android:gravity="center_vertical"/>
+</LinearLayout>

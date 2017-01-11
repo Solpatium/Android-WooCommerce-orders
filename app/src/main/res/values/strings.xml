@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WcOrders</string>
+    <string name="title_order_detail">Order Detail</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_consumer_key">Consumer key</string>
+    <string name="prompt_secret_key">Secret key</string>
+    <string name="prompt_url">URL</string>
+    <string name="action_sign_in">Authorize</string>
+    <string name="action_sign_in_short">Authorize</string>
+
+    <!--Order list-->
+</resources>
